@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: powderblue;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 12000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: powderblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 35px;
+}
+
+
+.logo {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 30px;
+    margin-right: 35px;
+}
+
+nav ul li:first-child {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li input{
+    border-radius: 10px;
+    border-color: black;
+}
+
+nav ul li a:hover {
+    color: tomato;
+    size: 250px;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: white;
+    font-size: 30px;
+
+}   
+
+.content img {
+    float: right;
+    border-radius: 10%;
+}
+.content p img{
+    clear: right;
+    box-shadow: white;
+    vertical-align: auto;
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    max-width: 10000px;
+    padding: 20px;
+}
+
+.box:hover{
+    background-color: Gainsboro;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.box {
+    
+    flex: 1 1 calc(25% - 20px);
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-left: 20PX;
+    border-radius: 10px;
+}
+
+.box h2 {
+    margin-top: 0;
+}
+
+.box p {
+    margin-bottom: 10px;
+}
+
+.box button{
+    background-color: powderblue;
+    border-radius: 10px;
+    border-color: powderblue;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.box button:hover{
+    background-color: black;
+    color: powderblue;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+    
+
+@media screen and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .box {
+        margin-bottom: 10px;
+        flex:  100%;
+    }
+}
+  
