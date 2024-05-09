@@ -1,0 +1,36 @@
+body{
+  background-color: black;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    flex-wrap: wrap;
+  }
+  
+  .container1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    padding: 15px ;
+    margin: 10px;
+    border: 15px solid white;
+    
+  }
+  
+  
+  h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -180px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+  }
