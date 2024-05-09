@@ -1,4 +1,4 @@
-let myArray = ['saravana', 'dhanasekaran', 'senthil', 'dhana', 'dhanush'];
+let myArray = ['earpuds', 'chappal', 'shoe', 'wacth', 'shirt'];
 
 myArray.forEach(function(elements){
     console.log(elements);
