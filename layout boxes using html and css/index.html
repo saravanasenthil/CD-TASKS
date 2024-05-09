@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
 </head>
     <title>eSHOPee</title>
 </head>
@@ -29,13 +30,13 @@
         <h1>Let's Shop</h1>
         
         <h2>Our Products</h2>
-         <button class="first"> Get Start  &rarr;</button>
+        <button onclick="toggleElement()" class="last1" >Get Starts &rarr;</button>
 
         <p><img src="./images/images__5_-removebg-preview.png" alt="eshop" >
             </p>
     </div>
-    <div class="container">
-        <div class="content">
+    <div class="container" id="elementToToggle" style="display: hide" >
+        <div class="content" >
             <img src="./images/images (2).jpeg" width="">
             <h3>SMART WATCH</h3>
             <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim labore molestias ut consequuntur? Tenetur, eos.</P>
@@ -47,9 +48,10 @@
                 <li><i class="fa fa-star "></i></li>
                 <li><i class="fa fa-star "></i></li>
               </ul>
-              <button class="buy1">BUY NOW</button>
+              <button  class="buy1">BUY NOW</button>
+              
         </div>
-        <div class="content">
+        <div class="content" >
             <img src="./images/shoe1.jpeg" >
             <h3>SHOES</h3>
             <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim labore molestias ut consequuntur? Tenetur, eos.</P>
@@ -61,9 +63,9 @@
                 <li><i class="fa fa-star checked"></i></li>
                 <li><i class="fa fa-star "></i></li>
               </ul>
-              <button class="buy2">BUY NOW</button>
+              <button  class="buy2">BUY NOW</button>
         </div>
-        <div class="content">
+        <div class="content" >
             <img src="./images/download.jpeg" >
             <h3>EARBUDS</h3>
             <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim labore molestias ut consequuntur? Tenetur, eos.</P>
@@ -75,9 +77,9 @@
                 <li><i class="fa fa-star "></i></li>
                 <li><i class="fa fa-star "></i></li>
               </ul>
-              <button class="buy3">BUY NOW</button>
+              <button  class="buy3">BUY NOW</button>
         </div>
-        <div class="content">
+        <div class="content" >
             <img src="./images/images__4_-removebg-preview.png" >
             <h3>IPHONE 15</h3>
             <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim labore molestias ut consequuntur? Tenetur, eos.</P>
@@ -89,9 +91,71 @@
                 <li><i class="fa fa-star checked"></i></li>
                 <li><i class="fa fa-star checked"></i></li>
               </ul>
-              <button class="buy4">BUY NOW</button>
+              <button  class="buy4">BUY NOW</button>
         </div>
+        
     </div>
-    <button class="last">Click Here To Show More Products &rarr;</button>
+    <div class="container">
+        <div class="content" >
+            <img src="./images/cooling.jpeg" width="">
+            <h3>COOLING GLASS</h3>
+            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim labore molestias ut consequuntur? Tenetur, eos.</P>
+            <h6>$289.000</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star "></i></li>
+                <li><i class="fa fa-star "></i></li>
+              </ul>
+              <button  class="buy1">BUY NOW</button>
+              
+        </div>
+        <div class="content" >
+            <img src="./images/shirt.jpeg" >
+            <h3>SHIRT</h3>
+            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim labore molestias ut consequuntur? Tenetur, eos.</P>
+            <h6>$98.000</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star "></i></li>
+              </ul>
+              <button  class="buy2">BUY NOW</button>
+        </div>
+        <div class="content" >
+            <img src="./images/chappal.png" >
+            <h3>chappal</h3>
+            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim labore molestias ut consequuntur? Tenetur, eos.</P>
+            <h6>$119.000</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star "></i></li>
+                <li><i class="fa fa-star "></i></li>
+              </ul>
+              <button  class="buy3">BUY NOW</button>
+        </div>
+        <div class="content" >
+            <img src="./images/tshirts.jpeg" >
+            <h3>T-Shirts</h3>
+            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim labore molestias ut consequuntur? Tenetur, eos.</P>
+            <h6>$21.000</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+              </ul>
+              <button  class="buy4">BUY NOW</button>
+        </div>
+        
+    </div>
+    
+    
 </body>
 </html>
