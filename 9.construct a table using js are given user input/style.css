@@ -1,10 +1,10 @@
 body{
-    background-color: gainsboro;
+    background-color: gray;
 }
 
 table {
     margin:auto;
-    
+    background-color: white;
     justify-content: end;
     border-collapse: collapse;
     
@@ -42,7 +42,7 @@ input{
 }
 
 .input1{
-    margin-left: 35px;
+    margin-left: 45px;
     margin-bottom: 25px;
 }
 .input2{
@@ -63,6 +63,8 @@ input{
     justify-content: center;
     
     margin-bottom: 20px;
+
+    color: white;
     
 }
 
@@ -78,8 +80,8 @@ button{
     padding: 10px;
     text-align: center;
     margin-bottom: 60px;
-    
-   
+    font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
 }
 
 
@@ -90,6 +92,8 @@ h2{
     margin-bottom: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
+    color: white;
+    text-decoration:solid;
 }
 
 
