@@ -9,6 +9,7 @@ function createTable() {
     // table += "<thead><tr>";
     for (var i = 0; i < cols; i++) {
         table += "<th>Heading " + (i+1) + "</th>";
+        
     }
     // table += "</tr></thead>";
     table += "<tbody>";
