@@ -11,4 +11,5 @@ let person = [
   
   
   let ans = Object.values(person);
+  
   console.log(ans);
