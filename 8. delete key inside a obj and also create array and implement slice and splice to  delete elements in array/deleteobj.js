@@ -8,5 +8,5 @@ let person = {
   
   delete person.age;
   
-  console.log(myObj); 
+  console.log(person); 
   
